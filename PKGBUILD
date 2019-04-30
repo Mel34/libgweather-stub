@@ -1,0 +1,14 @@
+_name=libgweather-stub
+pkgname=$_name
+pkgver=0.01
+pkgrel=1
+pkgdesc="Stub .so for libgweather painless removal"
+arch=('i686' 'x86_64')
+license=('gpl')
+depends=('coreutils')
+replaces=('libgweather')
+url='http://google.com'
+conflicts=($replaces)
+provides=($replaces)
+source=()
+md5sums=()
